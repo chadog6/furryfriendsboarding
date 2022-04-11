@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Furry & Friends</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+	<section class= "header">
+		<nav>
+			<a href="index.html"><img src="logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul> 
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="book.html">Book </a></li>
+					<li><a href="booking.html">Account</a></li>
+				</ul>	
+			</div>
+			<i class="fa fa-bars"onclick="showMenu()"></i>
+		</nav>
+
+<div class="main-text">
+	<h1>FURRY & FRIENDS</h1>
+	<p>Your pets home away from home</p>
+	<a href="book.html" class="main-btn">Book your stay today!</a>
+	
+</div>
+	</section>
+
+<section class="footer">
+	<h1>Enjoy 10% off on your pets first stay !</h1>
+	<p>You will also receive daily report cards for FREE upon your first stay!</p>
+	<div class="row">
+		<div class="sat">
+			<h3>Satisfaction Guaranteed</h3>
+			<p>At Furry & Friends, your dog will be sure to get hours of playtime. Furry & Friends provides plenty of exercise, fresh air and socialization which many Utahans (Utahns) are finding in short supply due to increased work and family responsibilities.</p>
+		</div>
+		<div class="sat">
+			<h3>Overnight Boarding</h3>
+			<p>Finally you can have a relaxing vacation without the guilt of leaving your dog locked in a kennel all day! Sleepover guests at Furry & Friends will get to participate in all the fun of our doggie daycare, and at night they will each be tucked into their own private kennel or run for a good nights rest.</p>
+		</div>
+		<div class="sat">
+			<h3>Self Service Dog Wash</h3>
+			<p>We feature professional grooming tubs that will accommodate any breed from a tiny Chihuahua to a giant Saint Bernard. All tubs are waist height and have a walk up stairs for easy access.</p>
+		</div>
+	</div>
+
+
+</section>
+
+<section class="yard">
+	<h1> See why your dog loves being away from home</h1>
+	<p>Your dog will be enjoying an elite back yard filled with fun toys, energetic dogs, and an amazing staff to supervise your pet!</p>
+	<div class="row">
+		<div class="yard-col">
+			<img src="https://s3-prod.dogtopia.com/wp-content/uploads/sites/244/2018/12/Daycare-playroom-690x461.jpg">
+			<div class="layer">
+				 <h3> THE BACKYARD</h3>
+			</div>
+
+		</div>
+		<div class="yard-col">
+			<img src="https://s3-prod.dogtopia.com/wp-content/uploads/sites/199/2018/11/New-Pet-Parent-Image-2.jpg">
+			<div class="layer">
+				 <h3> BOOK YOUR STAY</h3>
+			</div>
+
+		</div>
+		<div class="yard-col">
+			<img src="https://s3-prod.dogtopia.com/wp-content/uploads/sites/48/2018/11/local-hours-card-image-1-290x194.jpg">
+			<div class="layer">
+				 <h3> BOARDING VS. DAYCARE</h3>
+			</div>
+
+		</div>
+		
+	</div>
+</section>
+
+<!-- products sections -->
+<section class="products">
+	
+<h1>Forgot something? </h1>
+<p>We get it, everyone forgets something! We have everything your dog could need!</p>
+
+<div class="row">
+	<div class="pro-col">
+		<img src="https://s7d2.scene7.com/is/image/PetSmart/5278693">
+		<h3> Dog Food</h3>
+		<p>Whatever food your dog needs! We can provide it. From $9.99</p>
+	</div>
+	<div class="pro-col">
+		<img src="https://www.hartz.com/wp-content/uploads/2022/03/dog-benefits-health-1.jpg">
+		<h3> Personal Play Time</h3>
+		<p>Want your dog to have personal interaction? We will have one of our staff members play with your dog! From $11.99</p>
+	</div>
+	<div class="pro-col">
+		<img src="https://hgtvhome.sndimg.com/content/dam/images/hgtv/products/2021/7/15/1/rx_chewy_kong-squeezz-ball-dog-toy.jpeg.rend.hgtvcom.616.616.suffix/1626384328482.jpeg">
+		<h3> Toys, Rope, and more</h3>
+		<p>Whatever toy your dog enjoys to play with, we will make sure they get it! From $4.99</p>
+	</div>
+</div>
+</section>
+
+<!-- 
+Booking page -->
+
+<section  class="book">
+	<h1>A new home your dog can trust</h1>
+	<a href="book.html" class="book-btn"> BOOK YOUR STAY</a>
+</section>
+
+
+
+
+
+<!-- footer space -->
+
+<section class="footer">
+	<h4>Furry & Friends Established 2022</h4>
+	<p>This webpage was created by Chase Hughes</p>
+	<!-- <div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-intsagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div> -->
+</section>
+
+
+
+
+<!-- Im starting javascript here -->
+	<script>
+		var navLinks = document.getElementById("navLinks")
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		} 
+		
+	</script>
+
+
+
+
+</body>
+</html> 

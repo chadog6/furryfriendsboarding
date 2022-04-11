@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One:400|Quicksand:400,400italic,700);
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+
+}
+/*booking page css*/
+.body3 {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(https://rentivo.imagekit.io/cdn/tr:n-max/http://dujlrb80v4oq5.cloudfront.net/578/83959073_gw1418680.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-repeat: none;
+
+}
+
+.jzdbox1 {
+  width:315px; 
+  background:#BFD7ED ; 
+  border-radius:5px; 
+  overflow:hidden; 
+  display:block; 
+  margin-bottom:10px; 
+  box-shadow:0 0 10px #201d1c; 
+  margin:0 auto; 
+  margin-top:100px;
+  background-position: center;
+  background-size: cover;
+}
+
+.jzdcal {
+  padding:0 10px 10px 10px; 
+  box-sizing:border-box!important; 
+  background:#BFD7ED ; 
+  background: #BFD7ED;
+}
+
+.jzdcalt {
+  font:18px 'Quicksand'; 
+  font-weight:700; 
+  color:#f7f3eb; 
+  display:block; 
+  margin:18px 0 0 0; 
+  text-transform:uppercase; 
+  text-align:center; 
+  letter-spacing:1px;
+}
+
+.jzdcal span {
+  font:11px 'Quicksand'; 
+  font-weight:400; 
+  color:#f000000; 
+  text-align:center; 
+  width:42px; 
+  height:42px; 
+  display:inline-block; 
+  float:left; 
+  overflow:hidden; 
+  line-height:40px;
+}
+
+.jzdcal .jzdb:before {
+  opacity:0.3; 
+  content:'o';
+}
+
+.circle {
+  border:1px solid #f7f3eb; 
+  box-sizing:border-box!important; 
+  border-radius:200px!important;
+}
+
+span[data-title]:hover:after, 
+div[data-title]:hover:after {
+  font:11px 'Quicksand'; 
+  font-weight:400; 
+  content:attr(data-title); 
+  position:absolute; 
+  margin:0 0 100px; 
+  background:#BFD7ED ; 
+  border:1px solid #f7f3eb; 
+  color:#f7f3eb; 
+  padding:5px; 
+  z-index:9999; 
+  min-width:150px; 
+  max-width:150px;
+}
+
+
+
+
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+  }
+  
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav-links ul li::after{
+  content:   '';
+  width: 0%;
+  height: 2px; 
+  background: #BFD7ED;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.head1{
+  color: #BFD7ED;
+  font-size: 70px;
+  text-align: center;
+}
+
+
+
+
+
+/*about us page
+*/
+
+/*.chase{
+  margin: 100px auto;
+  width: 80%;
+  background-image: url(https://media-exp1.licdn.com/dms/image/C561BAQFXc1sv5J5XAg/company-background_10000/0/1519801189245?e=2147483647&v=beta&t=sie7oBaDJocnJabfQo4lUU1hTlaz4Q4Jtq2ybQGvmkg);
+  background-position: center;
+  background-size: cover;
+ 
+}
+
+/*nav img{
+  width:  100px;
+}
+
+
+*/
+.about-us{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+ .row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+ }
+
+
+.sat{
+  flex-basis: 31%;
+  background: #BFD7ED;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+
+
+*/
+
+
+
+
